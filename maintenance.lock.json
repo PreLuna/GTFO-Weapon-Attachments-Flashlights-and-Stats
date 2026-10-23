@@ -9,13 +9,8 @@
     },
     {
       "Path": ".gitignore",
-      "SHA256": "9E6206F653FF3BC2FD319789B5CF5A21B6316588A00BD2C24540A344A9EAE8A0",
-      "Bytes": 228
-    },
-    {
-      "Path": "baseline/FlashlightCustom/WangLocal.FlashlightCustom.dll",
-      "SHA256": "FE588A5CB6B8DD24E5FFF29A848AF339EFC3AC48A2CF293A33CA14B723571F9B",
-      "Bytes": 94208
+      "SHA256": "91EEEA390F3A87E8765F7FD6078369F2CD6A309EC1891A9C1AD70924DFFB1F53",
+      "Bytes": 301
     },
     {
       "Path": "Build.ps1",
@@ -23,94 +18,19 @@
       "Bytes": 491
     },
     {
-      "Path": "config/attachments.catalog.json",
-      "SHA256": "4EA484C721A31168D386E9260B5A678FB1C008EC4A013211DBE7E379502096C7",
-      "Bytes": 90
-    },
-    {
-      "Path": "config/attachments.schema.json",
-      "SHA256": "126C5E7023A211510963FA27CE7143A08127247B0F5E33B92D95796AEB10F202",
-      "Bytes": 5275
-    },
-    {
-      "Path": "config/loadouts.schema.json",
-      "SHA256": "2665A4058EE9B31BF38F6961C5900B203DA71DACC432903EACD67D08B121BB67",
-      "Bytes": 2559
-    },
-    {
-      "Path": "data/Custom/WeaponStatShower/ExtraDescriptions/Template.json",
-      "SHA256": "79D8D79E82298FE1BC5ED8D61692DA317CEB74F8D76DA5DC430906E6846CB5E4",
-      "Bytes": 534
-    },
-    {
-      "Path": "data/Custom/WeaponStatShower/Global.json",
-      "SHA256": "FD790568C18762098F54C89DB3B67D97B4A79DCFE7EE2A2B94AB6233E181E7C8",
-      "Bytes": 67
-    },
-    {
-      "Path": "data/GameData_PreLunaWeaponsLocator.json",
-      "SHA256": "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356",
-      "Bytes": 3
-    },
-    {
-      "Path": "data/PartialData/_config.json",
-      "SHA256": "37517E5F3DC66819F61F5A7BB8ACE1921282415F10551D2DEFA5C3EB0985B570",
-      "Bytes": 3
-    },
-    {
-      "Path": "data/PartialData/_persistentID.json",
-      "SHA256": "946D682C155739C72B4289F07D097062944157D63B6C8BB9AE51E4DDCAFC5CF9",
-      "Bytes": 39
-    },
-    {
-      "Path": "data/PartialData/Archetype/PDW.json",
-      "SHA256": "F8B40E2FBE6A805E04CDCFCBE9FA958E760E51F351D29702A8217AE1F9B08DD7",
-      "Bytes": 2361
-    },
-    {
-      "Path": "data/PartialData/Archetype/Scattergun.json",
-      "SHA256": "BC17B7EF453ED35730CA828BB8C001BA82549F64D456B7782B4617070D02F111",
-      "Bytes": 2517
-    },
-    {
-      "Path": "data/PartialData/MeleeAnimationSet/Spear.json",
-      "SHA256": "4843B06E59F7D84586ADB37885027B0A2733909177C39834E9AFA63DF4AD9334",
-      "Bytes": 6651
-    },
-    {
-      "Path": "data/PartialData/MeleeArchetype/Spear.json",
-      "SHA256": "5F531BB48E8AA210C283F9A6E76D6382BE1C3275AD127E96C809B7E5DC6D1B9D",
-      "Bytes": 1402
-    },
-    {
-      "Path": "data/PartialData/PlayerOfflineGear/PDW.json",
-      "SHA256": "2984A9AF142BCE4256A54F8DE05195B68CEFFC2643BEC3EEFD12E0572E68E254",
-      "Bytes": 1384
-    },
-    {
-      "Path": "data/PartialData/PlayerOfflineGear/Spear_Drillhead.json",
-      "SHA256": "567126BF184FECBC5F848939D6E317B514F4E02649974F3B32D5BD58F9D0E876",
-      "Bytes": 514
-    },
-    {
-      "Path": "data/PartialData/PlayerOfflineGear/Spear_Stinger.json",
-      "SHA256": "C99AD0B662605B15C46F66811E136177C011DC4878D9CA9D03E3C4BF6750F549",
-      "Bytes": 516
-    },
-    {
-      "Path": "data/PartialData/Recoil/PDW.json",
-      "SHA256": "F5FA4E584D76658E03B09FC14BC4CB96781655FE006CCA33D0B305E8C8F0AC04",
-      "Bytes": 1684
-    },
-    {
-      "Path": "data/PartialData/Recoil/Scattergun.json",
-      "SHA256": "154A3D01C3C2E7A020EC7C4E1BEF7E065777BAEC030CA2234800E21BF187A9E4",
-      "Bytes": 1815
-    },
-    {
       "Path": "DEVELOPMENT.md",
-      "SHA256": "4F9FA00ED6ABDA6FEBB692E30AF1F6DBE4F9353083D0E14C5A3B92ADB5F234DA",
-      "Bytes": 2608
+      "SHA256": "85F53D22433F8EBA89F85C31F5DF73F23AFE4BB02BDEE1715C38B1BB08C4162C",
+      "Bytes": 2999
+    },
+    {
+      "Path": "FlashlightCustom/baseline/WangLocal.FlashlightCustom.dll",
+      "SHA256": "FE588A5CB6B8DD24E5FFF29A848AF339EFC3AC48A2CF293A33CA14B723571F9B",
+      "Bytes": 94208
+    },
+    {
+      "Path": "IntegrationTests/recipes.json",
+      "SHA256": "1E96AEEEF2091EE21B9EF6ADC3F8B35FA1A218B7BB34A429309A45AE3858E546",
+      "Bytes": 2425
     },
     {
       "Path": "NOTICE.md",
@@ -119,223 +39,13 @@
     },
     {
       "Path": "README.md",
-      "SHA256": "7C8682388249515EC31535955203F1C240B168A7CDC086E9271FCDB6BE9E02CE",
-      "Bytes": 1111
+      "SHA256": "76B6E44F8709A9243AD9F2FA559F27F0A89448D30498E93937C0763650488827",
+      "Bytes": 1951
     },
     {
       "Path": "repo.json",
-      "SHA256": "0D27E22A014253A9B8085C69164986C025966EA862151546871EEF121BDB24A9",
-      "Bytes": 2000
-    },
-    {
-      "Path": "src/WeaponAttachments/AssemblyInfo.cs",
-      "SHA256": "F550FBC09577902F40CDCB3DD69633B0EFFFAE0C46D60523227BB14555E83B92",
-      "Bytes": 451
-    },
-    {
-      "Path": "src/WeaponAttachments/Core/BootstrapPaths.cs",
-      "SHA256": "ACA7C492B366BD2172B296C54428BC6AFACC31FA85F699AD52E156C272487C20",
-      "Bytes": 974
-    },
-    {
-      "Path": "src/WeaponAttachments/Core/DependencyProbe.cs",
-      "SHA256": "0B645D62CD4BB556171F2AE0C092BDA3F0B0250CC1BFB66E4AEFCC1B0719CE67",
-      "Bytes": 2309
-    },
-    {
-      "Path": "src/WeaponAttachments/Core/PluginMetadata.cs",
-      "SHA256": "66F6B4D98A941F8EADD2E720802BD38ACC5EB91BCCB11267CFBF2B92CBF887B6",
-      "Bytes": 1003
-    },
-    {
-      "Path": "src/WeaponAttachments/Definitions/AttachmentCatalog.cs",
-      "SHA256": "136D6B31F408113B7D8D3371CA5FCF640246A288C24EB7BC2C84AB2D87EF38A5",
-      "Bytes": 6744
-    },
-    {
-      "Path": "src/WeaponAttachments/Definitions/CapabilityRegistry.cs",
-      "SHA256": "A77E880D5261D5DB4250E7EB3273BBE060275D1A8961A397CA1AB72AB31989B5",
-      "Bytes": 6380
-    },
-    {
-      "Path": "src/WeaponAttachments/Definitions/CatalogFile.cs",
-      "SHA256": "BF632A5C6719122C10F01AFF749F8CD5911D05D3AD0F8CFFC1B09E8E3978590E",
-      "Bytes": 2106
-    },
-    {
-      "Path": "src/WeaponAttachments/Definitions/CatalogJson.cs",
-      "SHA256": "262D760C85F62F7FA6772980914845BA76A8215D7D84C97BD8EBCA2D4DEC01F8",
-      "Bytes": 8014
-    },
-    {
-      "Path": "src/WeaponAttachments/Definitions/CatalogValidator.cs",
-      "SHA256": "5DFF0CC3E836D6B4336386AC7D58D1DB112479E6E6AA58F6A482B5F4B1515699",
-      "Bytes": 11793
-    },
-    {
-      "Path": "src/WeaponAttachments/Definitions/DefinitionModels.cs",
-      "SHA256": "36937DD3AF41178E2E0117CAC24545C84094A55768F05D149742C24F4752B030",
-      "Bytes": 4042
-    },
-    {
-      "Path": "src/WeaponAttachments/Definitions/Identity.cs",
-      "SHA256": "F0F51C62BC99119A428EF245E817A0C9EB94D60456F6302FA89FAA282E12CBF0",
-      "Bytes": 3240
-    },
-    {
-      "Path": "src/WeaponAttachments/Definitions/SlotCatalog.cs",
-      "SHA256": "BAC98348C39C607D89530450BE9B1E937B722DB1CFCAE64B433CACBBFCF16B32",
-      "Bytes": 1533
-    },
-    {
-      "Path": "src/WeaponAttachments/Diagnostics/CalculationDiagnostic.cs",
-      "SHA256": "CB09AAB6367FB7E304919806EED3278257E66CB647920567709725D376F86822",
-      "Bytes": 710
-    },
-    {
-      "Path": "src/WeaponAttachments/Diagnostics/CatalogDiagnostic.cs",
-      "SHA256": "338160700841A6A63CD07F77C2930D2D4543C31B17993A24308C9FCD88B67169",
-      "Bytes": 907
-    },
-    {
-      "Path": "src/WeaponAttachments/Diagnostics/LoadoutDiagnostic.cs",
-      "SHA256": "836DD76F837DFD97142C72BFD59FE5D0E0AEBAF2D2DABC26715EE344318B1533",
-      "Bytes": 1447
-    },
-    {
-      "Path": "src/WeaponAttachments/Diagnostics/NativeDiagnostic.cs",
-      "SHA256": "8AC839D5CC24140B37EB461C18A7833F996DB51D59312956623AA3AEF7348B47",
-      "Bytes": 1621
-    },
-    {
-      "Path": "src/WeaponAttachments/Diagnostics/StartupReport.cs",
-      "SHA256": "6D8346553C7CCFBFE475AAD72F520D8E34100C8BFF6B000EEA5262B18C206075",
-      "Bytes": 1930
-    },
-    {
-      "Path": "src/WeaponAttachments/Diagnostics/StartupReportWriter.cs",
-      "SHA256": "592AD9E9F9093FF2628A446AD4DEA6533B687108F6494CE4C5A4BA1A3A3CDF17",
-      "Bytes": 571
-    },
-    {
-      "Path": "src/WeaponAttachments/Execution/OwnedValue.cs",
-      "SHA256": "EC1404546B1C268635A85BC5E5ECE6AA7386AF19B4534FC52F1D89DE1C1E141B",
-      "Bytes": 1176
-    },
-    {
-      "Path": "src/WeaponAttachments/Execution/RuntimeBinding.cs",
-      "SHA256": "397C5FF753CB448FD080C87C19555CB568E5A3C6F760D327F47901C09A02AA59",
-      "Bytes": 14214
-    },
-    {
-      "Path": "src/WeaponAttachments/Interface/AttachmentInterfaceRuntime.cs",
-      "SHA256": "83F499910A088D320CB8702EB4ACDA082D35592D2096EF68ECEAF21232D2462A",
-      "Bytes": 11517
-    },
-    {
-      "Path": "src/WeaponAttachments/Interface/AttachmentPanelView.cs",
-      "SHA256": "4FACB4AFA273E330A7B175EAC87CA86007E82A721F37029EF0CE3FC77E10B91C",
-      "Bytes": 8885
-    },
-    {
-      "Path": "src/WeaponAttachments/Interface/CellMenuControls.cs",
-      "SHA256": "713CFFDC11AE647A35C5CA04174AD569725C6E2BA21EDFCE2870996A264DF84F",
-      "Bytes": 3789
-    },
-    {
-      "Path": "src/WeaponAttachments/Interface/GamePanelPort.cs",
-      "SHA256": "E2A11DA30BBA5C64DE7B80FDE63B92F34C8801883745ED61F60B46BF82583F50",
-      "Bytes": 7147
-    },
-    {
-      "Path": "src/WeaponAttachments/Interface/PanelController.cs",
-      "SHA256": "63EC60268E6139EFEF0381EE12C74233C328744D452904FF39D2ABACA4F1B54A",
-      "Bytes": 8367
-    },
-    {
-      "Path": "src/WeaponAttachments/Interface/PanelText.cs",
-      "SHA256": "78BF47096A2604226170B5B673A2F5685CF20669EB406B19E184DC00873B0573",
-      "Bytes": 3116
-    },
-    {
-      "Path": "src/WeaponAttachments/Loadouts/JsonLoadoutStorage.cs",
-      "SHA256": "1DC428F2F6FEB4144F1FF12251AC301632EF5B2A88D5B8D8139E6082A204608F",
-      "Bytes": 6322
-    },
-    {
-      "Path": "src/WeaponAttachments/Loadouts/LoadoutJson.cs",
-      "SHA256": "67EAE4D73C90B14CF79BF52CD62E33E0368A4337142AFE137DBC398A242BF0EB",
-      "Bytes": 9901
-    },
-    {
-      "Path": "src/WeaponAttachments/Loadouts/LoadoutManager.cs",
-      "SHA256": "873A8BCAB15EE97F46AA4EE8CBD905DBB4FDBAF84B04926E86A0763B19F70DF4",
-      "Bytes": 9951
-    },
-    {
-      "Path": "src/WeaponAttachments/Loadouts/LoadoutModels.cs",
-      "SHA256": "F3E51E16236C0D86EEB812BF95478D27E55E9C32353C1921BDEF9A4916FF9235",
-      "Bytes": 2827
-    },
-    {
-      "Path": "src/WeaponAttachments/Modifiers/CalculationModels.cs",
-      "SHA256": "98D903C2B02F51B8409641D22FD1EE65324656431DC44D272CA30DD0D74C6553",
-      "Bytes": 6801
-    },
-    {
-      "Path": "src/WeaponAttachments/Modifiers/ModifierCalculator.cs",
-      "SHA256": "8AD67877FC59ECD7827323AE3BE62483F772112CEC9E3F6679AC1C0DFFEE72A6",
-      "Bytes": 14607
-    },
-    {
-      "Path": "src/WeaponAttachments/Modules/ModuleCatalog.cs",
-      "SHA256": "FCBE09E1210D2C75DDB82B8DB706C29D8FE698FFEA23A6A721BF66AF95FCF5D3",
-      "Bytes": 1832
-    },
-    {
-      "Path": "src/WeaponAttachments/Native/NativeBinding.cs",
-      "SHA256": "73B872CFEF474C6E4741E2D1B88EE4A012227D34E1F3331D0A2022573D5E2E2C",
-      "Bytes": 10306
-    },
-    {
-      "Path": "src/WeaponAttachments/Native/NativeEwc.cs",
-      "SHA256": "5BC759137D55A3CD74EBFAEC238FD4291F4689767C3D35F7071FA08593494C6D",
-      "Bytes": 7227
-    },
-    {
-      "Path": "src/WeaponAttachments/Native/NativeFlashlights.cs",
-      "SHA256": "836E1E1828FA522FFF3DCB169BABF72B165BB8CF737624BCF843EF7335E2D123",
-      "Bytes": 10325
-    },
-    {
-      "Path": "src/WeaponAttachments/Native/NativeOwnership.cs",
-      "SHA256": "EEC210741902828DEE1D5DB87F18CFC37330405BC14225B34466DDC21EAF7900",
-      "Bytes": 3236
-    },
-    {
-      "Path": "src/WeaponAttachments/Native/NativePatches.cs",
-      "SHA256": "1684B1E0A0939F5536CE4C4E801557E2C9F1D2D4ED82196B1E796CA5CB6724BE",
-      "Bytes": 10301
-    },
-    {
-      "Path": "src/WeaponAttachments/Native/NativeRuntime.cs",
-      "SHA256": "5E32F726BE526A4D4966A39279184C02627D3B50B581D1E52E8094CF5C81E009",
-      "Bytes": 14619
-    },
-    {
-      "Path": "src/WeaponAttachments/Ownership/OwnershipPolicy.cs",
-      "SHA256": "4190DECC300E3F35944F72DC6C886EDCD57A33B8D1810DBAE0610A78DCC1484B",
-      "Bytes": 2951
-    },
-    {
-      "Path": "src/WeaponAttachments/Runtime/Plugin.cs",
-      "SHA256": "68A3C9A77CF7159382748D2DED17A594448194E07F20CD9129C141B9730694BB",
-      "Bytes": 7339
-    },
-    {
-      "Path": "src/WeaponAttachments/Runtime/PluginSettings.cs",
-      "SHA256": "E6295A843569057BF2F3DFC75EBD22F90C8C651006E0044610BCC12F9D1417B0",
-      "Bytes": 930
+      "SHA256": "BE73AE80582BB538AD7554E3DF06D7982A4C72F67B907006525155A3385BA14A",
+      "Bytes": 3900
     },
     {
       "Path": "Test.ps1",
@@ -343,39 +53,329 @@
       "Bytes": 308
     },
     {
-      "Path": "tests/recipes.json",
-      "SHA256": "324D43B6550D8442F9AD5600C562FB4C521B10910466349B3C848EC28B48CC2B",
-      "Bytes": 2209
+      "Path": "WeaponAttachments/config/attachments.catalog.json",
+      "SHA256": "4EA484C721A31168D386E9260B5A678FB1C008EC4A013211DBE7E379502096C7",
+      "Bytes": 90
     },
     {
-      "Path": "tests/Stage2Definitions.cs",
+      "Path": "WeaponAttachments/config/attachments.schema.json",
+      "SHA256": "126C5E7023A211510963FA27CE7143A08127247B0F5E33B92D95796AEB10F202",
+      "Bytes": 5275
+    },
+    {
+      "Path": "WeaponAttachments/config/loadouts.schema.json",
+      "SHA256": "2665A4058EE9B31BF38F6961C5900B203DA71DACC432903EACD67D08B121BB67",
+      "Bytes": 2559
+    },
+    {
+      "Path": "WeaponAttachments/src/AssemblyInfo.cs",
+      "SHA256": "F550FBC09577902F40CDCB3DD69633B0EFFFAE0C46D60523227BB14555E83B92",
+      "Bytes": 451
+    },
+    {
+      "Path": "WeaponAttachments/src/Core/BootstrapPaths.cs",
+      "SHA256": "ACA7C492B366BD2172B296C54428BC6AFACC31FA85F699AD52E156C272487C20",
+      "Bytes": 974
+    },
+    {
+      "Path": "WeaponAttachments/src/Core/DependencyProbe.cs",
+      "SHA256": "0B645D62CD4BB556171F2AE0C092BDA3F0B0250CC1BFB66E4AEFCC1B0719CE67",
+      "Bytes": 2309
+    },
+    {
+      "Path": "WeaponAttachments/src/Core/PluginMetadata.cs",
+      "SHA256": "66F6B4D98A941F8EADD2E720802BD38ACC5EB91BCCB11267CFBF2B92CBF887B6",
+      "Bytes": 1003
+    },
+    {
+      "Path": "WeaponAttachments/src/Definitions/AttachmentCatalog.cs",
+      "SHA256": "136D6B31F408113B7D8D3371CA5FCF640246A288C24EB7BC2C84AB2D87EF38A5",
+      "Bytes": 6744
+    },
+    {
+      "Path": "WeaponAttachments/src/Definitions/CapabilityRegistry.cs",
+      "SHA256": "A77E880D5261D5DB4250E7EB3273BBE060275D1A8961A397CA1AB72AB31989B5",
+      "Bytes": 6380
+    },
+    {
+      "Path": "WeaponAttachments/src/Definitions/CatalogFile.cs",
+      "SHA256": "BF632A5C6719122C10F01AFF749F8CD5911D05D3AD0F8CFFC1B09E8E3978590E",
+      "Bytes": 2106
+    },
+    {
+      "Path": "WeaponAttachments/src/Definitions/CatalogJson.cs",
+      "SHA256": "262D760C85F62F7FA6772980914845BA76A8215D7D84C97BD8EBCA2D4DEC01F8",
+      "Bytes": 8014
+    },
+    {
+      "Path": "WeaponAttachments/src/Definitions/CatalogValidator.cs",
+      "SHA256": "5DFF0CC3E836D6B4336386AC7D58D1DB112479E6E6AA58F6A482B5F4B1515699",
+      "Bytes": 11793
+    },
+    {
+      "Path": "WeaponAttachments/src/Definitions/DefinitionModels.cs",
+      "SHA256": "36937DD3AF41178E2E0117CAC24545C84094A55768F05D149742C24F4752B030",
+      "Bytes": 4042
+    },
+    {
+      "Path": "WeaponAttachments/src/Definitions/Identity.cs",
+      "SHA256": "F0F51C62BC99119A428EF245E817A0C9EB94D60456F6302FA89FAA282E12CBF0",
+      "Bytes": 3240
+    },
+    {
+      "Path": "WeaponAttachments/src/Definitions/SlotCatalog.cs",
+      "SHA256": "BAC98348C39C607D89530450BE9B1E937B722DB1CFCAE64B433CACBBFCF16B32",
+      "Bytes": 1533
+    },
+    {
+      "Path": "WeaponAttachments/src/Diagnostics/CalculationDiagnostic.cs",
+      "SHA256": "CB09AAB6367FB7E304919806EED3278257E66CB647920567709725D376F86822",
+      "Bytes": 710
+    },
+    {
+      "Path": "WeaponAttachments/src/Diagnostics/CatalogDiagnostic.cs",
+      "SHA256": "338160700841A6A63CD07F77C2930D2D4543C31B17993A24308C9FCD88B67169",
+      "Bytes": 907
+    },
+    {
+      "Path": "WeaponAttachments/src/Diagnostics/LoadoutDiagnostic.cs",
+      "SHA256": "836DD76F837DFD97142C72BFD59FE5D0E0AEBAF2D2DABC26715EE344318B1533",
+      "Bytes": 1447
+    },
+    {
+      "Path": "WeaponAttachments/src/Diagnostics/NativeDiagnostic.cs",
+      "SHA256": "8AC839D5CC24140B37EB461C18A7833F996DB51D59312956623AA3AEF7348B47",
+      "Bytes": 1621
+    },
+    {
+      "Path": "WeaponAttachments/src/Diagnostics/StartupReport.cs",
+      "SHA256": "6D8346553C7CCFBFE475AAD72F520D8E34100C8BFF6B000EEA5262B18C206075",
+      "Bytes": 1930
+    },
+    {
+      "Path": "WeaponAttachments/src/Diagnostics/StartupReportWriter.cs",
+      "SHA256": "592AD9E9F9093FF2628A446AD4DEA6533B687108F6494CE4C5A4BA1A3A3CDF17",
+      "Bytes": 571
+    },
+    {
+      "Path": "WeaponAttachments/src/Execution/OwnedValue.cs",
+      "SHA256": "EC1404546B1C268635A85BC5E5ECE6AA7386AF19B4534FC52F1D89DE1C1E141B",
+      "Bytes": 1176
+    },
+    {
+      "Path": "WeaponAttachments/src/Execution/RuntimeBinding.cs",
+      "SHA256": "397C5FF753CB448FD080C87C19555CB568E5A3C6F760D327F47901C09A02AA59",
+      "Bytes": 14214
+    },
+    {
+      "Path": "WeaponAttachments/src/Interface/AttachmentInterfaceRuntime.cs",
+      "SHA256": "83F499910A088D320CB8702EB4ACDA082D35592D2096EF68ECEAF21232D2462A",
+      "Bytes": 11517
+    },
+    {
+      "Path": "WeaponAttachments/src/Interface/AttachmentPanelView.cs",
+      "SHA256": "4FACB4AFA273E330A7B175EAC87CA86007E82A721F37029EF0CE3FC77E10B91C",
+      "Bytes": 8885
+    },
+    {
+      "Path": "WeaponAttachments/src/Interface/CellMenuControls.cs",
+      "SHA256": "713CFFDC11AE647A35C5CA04174AD569725C6E2BA21EDFCE2870996A264DF84F",
+      "Bytes": 3789
+    },
+    {
+      "Path": "WeaponAttachments/src/Interface/GamePanelPort.cs",
+      "SHA256": "E2A11DA30BBA5C64DE7B80FDE63B92F34C8801883745ED61F60B46BF82583F50",
+      "Bytes": 7147
+    },
+    {
+      "Path": "WeaponAttachments/src/Interface/PanelController.cs",
+      "SHA256": "63EC60268E6139EFEF0381EE12C74233C328744D452904FF39D2ABACA4F1B54A",
+      "Bytes": 8367
+    },
+    {
+      "Path": "WeaponAttachments/src/Interface/PanelText.cs",
+      "SHA256": "78BF47096A2604226170B5B673A2F5685CF20669EB406B19E184DC00873B0573",
+      "Bytes": 3116
+    },
+    {
+      "Path": "WeaponAttachments/src/Loadouts/JsonLoadoutStorage.cs",
+      "SHA256": "1DC428F2F6FEB4144F1FF12251AC301632EF5B2A88D5B8D8139E6082A204608F",
+      "Bytes": 6322
+    },
+    {
+      "Path": "WeaponAttachments/src/Loadouts/LoadoutJson.cs",
+      "SHA256": "67EAE4D73C90B14CF79BF52CD62E33E0368A4337142AFE137DBC398A242BF0EB",
+      "Bytes": 9901
+    },
+    {
+      "Path": "WeaponAttachments/src/Loadouts/LoadoutManager.cs",
+      "SHA256": "873A8BCAB15EE97F46AA4EE8CBD905DBB4FDBAF84B04926E86A0763B19F70DF4",
+      "Bytes": 9951
+    },
+    {
+      "Path": "WeaponAttachments/src/Loadouts/LoadoutModels.cs",
+      "SHA256": "F3E51E16236C0D86EEB812BF95478D27E55E9C32353C1921BDEF9A4916FF9235",
+      "Bytes": 2827
+    },
+    {
+      "Path": "WeaponAttachments/src/Modifiers/CalculationModels.cs",
+      "SHA256": "98D903C2B02F51B8409641D22FD1EE65324656431DC44D272CA30DD0D74C6553",
+      "Bytes": 6801
+    },
+    {
+      "Path": "WeaponAttachments/src/Modifiers/ModifierCalculator.cs",
+      "SHA256": "8AD67877FC59ECD7827323AE3BE62483F772112CEC9E3F6679AC1C0DFFEE72A6",
+      "Bytes": 14607
+    },
+    {
+      "Path": "WeaponAttachments/src/Modules/ModuleCatalog.cs",
+      "SHA256": "FCBE09E1210D2C75DDB82B8DB706C29D8FE698FFEA23A6A721BF66AF95FCF5D3",
+      "Bytes": 1832
+    },
+    {
+      "Path": "WeaponAttachments/src/Native/NativeBinding.cs",
+      "SHA256": "73B872CFEF474C6E4741E2D1B88EE4A012227D34E1F3331D0A2022573D5E2E2C",
+      "Bytes": 10306
+    },
+    {
+      "Path": "WeaponAttachments/src/Native/NativeEwc.cs",
+      "SHA256": "5BC759137D55A3CD74EBFAEC238FD4291F4689767C3D35F7071FA08593494C6D",
+      "Bytes": 7227
+    },
+    {
+      "Path": "WeaponAttachments/src/Native/NativeFlashlights.cs",
+      "SHA256": "836E1E1828FA522FFF3DCB169BABF72B165BB8CF737624BCF843EF7335E2D123",
+      "Bytes": 10325
+    },
+    {
+      "Path": "WeaponAttachments/src/Native/NativeOwnership.cs",
+      "SHA256": "EEC210741902828DEE1D5DB87F18CFC37330405BC14225B34466DDC21EAF7900",
+      "Bytes": 3236
+    },
+    {
+      "Path": "WeaponAttachments/src/Native/NativePatches.cs",
+      "SHA256": "1684B1E0A0939F5536CE4C4E801557E2C9F1D2D4ED82196B1E796CA5CB6724BE",
+      "Bytes": 10301
+    },
+    {
+      "Path": "WeaponAttachments/src/Native/NativeRuntime.cs",
+      "SHA256": "5E32F726BE526A4D4966A39279184C02627D3B50B581D1E52E8094CF5C81E009",
+      "Bytes": 14619
+    },
+    {
+      "Path": "WeaponAttachments/src/Ownership/OwnershipPolicy.cs",
+      "SHA256": "4190DECC300E3F35944F72DC6C886EDCD57A33B8D1810DBAE0610A78DCC1484B",
+      "Bytes": 2951
+    },
+    {
+      "Path": "WeaponAttachments/src/Runtime/Plugin.cs",
+      "SHA256": "68A3C9A77CF7159382748D2DED17A594448194E07F20CD9129C141B9730694BB",
+      "Bytes": 7339
+    },
+    {
+      "Path": "WeaponAttachments/src/Runtime/PluginSettings.cs",
+      "SHA256": "E6295A843569057BF2F3DFC75EBD22F90C8C651006E0044610BCC12F9D1417B0",
+      "Bytes": 930
+    },
+    {
+      "Path": "WeaponAttachments/tests/Stage2Definitions.cs",
       "SHA256": "9DEF9209F01F6B98066C83E7FCD8969DEF0919D7351FED6EF9D366D595A5C1C5",
       "Bytes": 22717
     },
     {
-      "Path": "tests/Stage3Loadouts.cs",
+      "Path": "WeaponAttachments/tests/Stage3Loadouts.cs",
       "SHA256": "31B16A0426B27073EE22B40D2A46545996F391B5A52FEAEAA17BB79864762F63",
       "Bytes": 28687
     },
     {
-      "Path": "tests/Stage4Calculations.cs",
+      "Path": "WeaponAttachments/tests/Stage4Calculations.cs",
       "SHA256": "094970F9B0A1697EDA3FD69E48BF645E3E6DCB178032776C69FEEEFA05431FC8",
       "Bytes": 31818
     },
     {
-      "Path": "tests/Stage5Execution.cs",
+      "Path": "WeaponAttachments/tests/Stage5Execution.cs",
       "SHA256": "A47FD642BD4D442690D8E7F119833B98BA197DE50BB9B86362163139CB5FFEF1",
       "Bytes": 18862
     },
     {
-      "Path": "tests/Stage6Interface.cs",
+      "Path": "WeaponAttachments/tests/Stage6Interface.cs",
       "SHA256": "591506EB55CF4F76B982616B36433767AB7F106AC9B91B65BBD82B7C85FA0CF5",
       "Bytes": 16052
     },
     {
-      "Path": "tests/Stage7Ownership.cs",
+      "Path": "WeaponAttachments/tests/Stage7Ownership.cs",
       "SHA256": "010A28F334FB7FAC4F4823072A77416826086C74CAEF0B034FD248E831092024",
       "Bytes": 7203
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/Custom/WeaponStatShower/ExtraDescriptions/Template.json",
+      "SHA256": "79D8D79E82298FE1BC5ED8D61692DA317CEB74F8D76DA5DC430906E6846CB5E4",
+      "Bytes": 534
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/Custom/WeaponStatShower/Global.json",
+      "SHA256": "FD790568C18762098F54C89DB3B67D97B4A79DCFE7EE2A2B94AB6233E181E7C8",
+      "Bytes": 67
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/GameData_PreLunaWeaponsLocator.json",
+      "SHA256": "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356",
+      "Bytes": 3
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/_config.json",
+      "SHA256": "37517E5F3DC66819F61F5A7BB8ACE1921282415F10551D2DEFA5C3EB0985B570",
+      "Bytes": 3
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/_persistentID.json",
+      "SHA256": "946D682C155739C72B4289F07D097062944157D63B6C8BB9AE51E4DDCAFC5CF9",
+      "Bytes": 39
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/Archetype/PDW.json",
+      "SHA256": "F8B40E2FBE6A805E04CDCFCBE9FA958E760E51F351D29702A8217AE1F9B08DD7",
+      "Bytes": 2361
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/Archetype/Scattergun.json",
+      "SHA256": "BC17B7EF453ED35730CA828BB8C001BA82549F64D456B7782B4617070D02F111",
+      "Bytes": 2517
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/MeleeAnimationSet/Spear.json",
+      "SHA256": "4843B06E59F7D84586ADB37885027B0A2733909177C39834E9AFA63DF4AD9334",
+      "Bytes": 6651
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/MeleeArchetype/Spear.json",
+      "SHA256": "5F531BB48E8AA210C283F9A6E76D6382BE1C3275AD127E96C809B7E5DC6D1B9D",
+      "Bytes": 1402
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/PlayerOfflineGear/PDW.json",
+      "SHA256": "2984A9AF142BCE4256A54F8DE05195B68CEFFC2643BEC3EEFD12E0572E68E254",
+      "Bytes": 1384
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/PlayerOfflineGear/Spear_Drillhead.json",
+      "SHA256": "567126BF184FECBC5F848939D6E317B514F4E02649974F3B32D5BD58F9D0E876",
+      "Bytes": 514
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/PlayerOfflineGear/Spear_Stinger.json",
+      "SHA256": "C99AD0B662605B15C46F66811E136177C011DC4878D9CA9D03E3C4BF6750F549",
+      "Bytes": 516
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/Recoil/PDW.json",
+      "SHA256": "F5FA4E584D76658E03B09FC14BC4CB96781655FE006CCA33D0B305E8C8F0AC04",
+      "Bytes": 1684
+    },
+    {
+      "Path": "WeaponDataCustom/GameData/PartialData/Recoil/Scattergun.json",
+      "SHA256": "154A3D01C3C2E7A020EC7C4E1BEF7E065777BAEC030CA2234800E21BF187A9E4",
+      "Bytes": 1815
     }
   ]
 }

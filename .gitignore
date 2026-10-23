@@ -9,9 +9,9 @@
 .vscode/
 .idea/
 *.dll
-!baseline/
-!baseline/**/
-!baseline/**/*.dll
+!FlashlightCustom/baseline/
+!FlashlightCustom/baseline/**/
+!FlashlightCustom/baseline/WangLocal.FlashlightCustom.dll
 *.pdb
 *.log
 *.zip

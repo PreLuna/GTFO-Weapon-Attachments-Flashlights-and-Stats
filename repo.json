@@ -1,5 +1,5 @@
 {
-  "SchemaVersion": 2,
+  "SchemaVersion": 3,
   "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
   "Modules": [
     {
@@ -37,7 +37,56 @@
         }
       ],
       "NullableEnabled": true,
-      "WarningsAsErrors": true
+      "WarningsAsErrors": true,
+      "ModuleRoot": "WeaponAttachments",
+      "SourceRoot": "WeaponAttachments/src",
+      "Name": "自定义武器配件",
+      "DependencyDetails": [
+        {
+          "Guid": "dev.gtfomodding.gtfo-api",
+          "DependencyFlags": 1,
+          "Kind": "Hard",
+          "DeclaredVersion": "0.5.1"
+        },
+        {
+          "Guid": "com.dak.MTFO",
+          "DependencyFlags": 1,
+          "Kind": "Hard",
+          "DeclaredVersion": "4.6.3"
+        },
+        {
+          "Guid": "Dinorush.ModifierAPI",
+          "DependencyFlags": 1,
+          "Kind": "Hard",
+          "DeclaredVersion": "1.3.2"
+        },
+        {
+          "Guid": "Amor.AmorLib",
+          "DependencyFlags": 1,
+          "Kind": "Hard",
+          "DeclaredVersion": "1.2.7"
+        },
+        {
+          "Guid": "Dinorush.ExtraWeaponCustomization",
+          "DependencyFlags": 1,
+          "Kind": "Hard",
+          "DeclaredVersion": "4.13.4"
+        },
+        {
+          "Guid": "WeaponStatShower",
+          "DependencyFlags": 1,
+          "Kind": "Hard",
+          "DeclaredVersion": "2.0.5"
+        },
+        {
+          "Guid": "MTFO.Extension.PartialBlocks",
+          "DependencyFlags": 2,
+          "Kind": "Soft",
+          "DeclaredVersion": null
+        }
+      ],
+      "TestsRoot": "WeaponAttachments/tests",
+      "ConfigRoot": "WeaponAttachments/config"
     },
     {
       "Id": "FlashlightCustom",
@@ -48,8 +97,11 @@
       "CompileDependencies": [],
       "Kind": "frozen-migrated",
       "LegacyGuid": "wanglocal.flashlightcustom",
-      "Baseline": "baseline/FlashlightCustom/WangLocal.FlashlightCustom.dll",
-      "BaselineSHA256": "FE588A5CB6B8DD24E5FFF29A848AF339EFC3AC48A2CF293A33CA14B723571F9B"
+      "Baseline": "FlashlightCustom/baseline/WangLocal.FlashlightCustom.dll",
+      "BaselineSHA256": "FE588A5CB6B8DD24E5FFF29A848AF339EFC3AC48A2CF293A33CA14B723571F9B",
+      "ModuleRoot": "FlashlightCustom",
+      "Name": "手电筒大修",
+      "DependencyDetails": []
     },
     {
       "Id": "WeaponDataCustom",
@@ -60,7 +112,20 @@
         "PartialData 1.5.2",
         "PierceBugFix 1.2.2",
         "WeaponStatShower 2.0.5"
-      ]
+      ],
+      "ModuleRoot": "WeaponDataCustom",
+      "CompileDependencies": [],
+      "DataRoot": "WeaponDataCustom/GameData",
+      "Name": "武器数值数据",
+      "DependencyDetails": [],
+      "InstallPath": "BepInEx/plugins/PreLuna.WeaponDataCustom/GameData"
     }
-  ]
+  ],
+  "InputRoots": [
+    "FlashlightCustom",
+    "IntegrationTests",
+    "WeaponAttachments",
+    "WeaponDataCustom"
+  ],
+  "TestPlanPath": "IntegrationTests/recipes.json"
 }
