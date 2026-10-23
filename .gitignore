@@ -1,0 +1,23 @@
+# Local build products and machine state
+/out/
+/.local/
+/dist/
+/artifacts/
+**/bin/
+**/obj/
+.vs/
+.vscode/
+.idea/
+*.dll
+!baseline/
+!baseline/**/
+!baseline/**/*.dll
+*.pdb
+*.log
+*.zip
+*.7z
+*.tmp
+.env
+.env.*
+*.user
+config.local.json

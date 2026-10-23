@@ -1,0 +1,86 @@
+[
+  {
+    "Name": "Stage2Definitions",
+    "Sources": [
+      "tests/Stage2Definitions.cs"
+    ],
+    "References": [
+      "out/package/BepInEx/plugins/PreLuna.WeaponAttachments/PreLuna.WeaponAttachments.dll"
+    ],
+    "Arguments": [
+      "out/tests/Stage2Definitions.json",
+      "out/tests/Stage2Definitions-fixtures",
+      "config/attachments.catalog.json"
+    ]
+  },
+  {
+    "Name": "Stage3Loadouts",
+    "Sources": [
+      "tests/Stage3Loadouts.cs"
+    ],
+    "References": [
+      "out/package/BepInEx/plugins/PreLuna.WeaponAttachments/PreLuna.WeaponAttachments.dll"
+    ],
+    "Arguments": [
+      "out/tests/Stage3Loadouts.json",
+      "out/tests/Stage3Loadouts-fixtures",
+      "config/attachments.catalog.json"
+    ]
+  },
+  {
+    "Name": "Stage4Calculations",
+    "Sources": [
+      "tests/Stage4Calculations.cs"
+    ],
+    "References": [
+      "out/package/BepInEx/plugins/PreLuna.WeaponAttachments/PreLuna.WeaponAttachments.dll"
+    ],
+    "Arguments": [
+      "out/tests/Stage4Calculations.json",
+      "out/tests/Stage4Calculations-fixtures",
+      "config/attachments.catalog.json"
+    ]
+  },
+  {
+    "Name": "Stage5Execution",
+    "Sources": [
+      "tests/Stage5Execution.cs"
+    ],
+    "References": [
+      "out/package/BepInEx/plugins/PreLuna.WeaponAttachments/PreLuna.WeaponAttachments.dll"
+    ],
+    "Arguments": [
+      "out/tests/Stage5Execution.json",
+      "out/tests/Stage5Execution-fixtures",
+      "config/attachments.catalog.json"
+    ]
+  },
+  {
+    "Name": "Stage6Interface",
+    "Sources": [
+      "tests/Stage6Interface.cs"
+    ],
+    "References": [
+      "out/package/BepInEx/plugins/PreLuna.WeaponAttachments/PreLuna.WeaponAttachments.dll"
+    ],
+    "Arguments": [
+      "out/tests/Stage6Interface.json",
+      "out/tests/Stage6Interface-fixtures",
+      "config/attachments.catalog.json"
+    ]
+  },
+  {
+    "Name": "Stage7Ownership",
+    "Sources": [
+      "tests/Stage7Ownership.cs"
+    ],
+    "References": [
+      "out/package/BepInEx/plugins/PreLuna.WeaponAttachments/PreLuna.WeaponAttachments.dll"
+    ],
+    "Arguments": [
+      "out/tests/Stage7Ownership.json",
+      "out/tests/Stage7Ownership-fixtures",
+      "config/attachments.catalog.json"
+    ]
+  }
+]

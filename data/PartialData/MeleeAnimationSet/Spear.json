@@ -1,0 +1,267 @@
+{
+  "datablock": "MeleeAnimationSet",
+  "HoldToChargeTime": 0.2,
+  "MaxDamageChargeTime": 0.6,
+  "AutoAttackTime": 15,
+  "AutoAttackWarningTime": 14.5,
+  "FPIdleAnim": {
+    "Name": "Spear_Idle"
+  },
+  "FPSettleAnim": {
+    "Name": "Spear_Settle"
+  },
+  "FPWalkAnim": {
+    "Name": "sledgehammer_walk"
+  },
+  "FPRunAnim": {
+    "Name": "sledgehammer_run"
+  },
+  "FPJumpAnim": {
+    "Name": "sledgehammer_jump"
+  },
+  "FPLandAnim": {
+    "Name": "sledgehammer_land"
+  },
+  "FPChargeCancelAnimRight": {
+    "Name": "spear_chargeup_cancel"
+  },
+  "FPChargeCancelAnimLeft": {
+    "Name": "spear_chargeup_cancel"
+  },
+  "FPAttackMissRight": {
+    "AttackLengthTime": 1,
+    "AttackHitTime": 0.166666672,
+    "DamageStartTime": 0.13333334,
+    "DamageEndTime": 0.4,
+    "AttackCamFwdHitTime": 0.2,
+    "ComboEarlyTime": 0.466666669,
+    "Side": 1,
+    "Anim": {
+      "Name": "Spear_Hit"
+    },
+    "AnimBlendIn": 0,
+    "AttackLengthFrameTime": 30,
+    "AttackHitFrameTime": 5,
+    "DamageStartFrameTime": 4,
+    "DamageEndFrameTime": 12,
+    "AttackCamFwdHitFrameTime": 6,
+    "ComboEarlyFrameTime": 14
+  },
+  "FPAttackMissLeft": {
+    "AttackLengthTime": 1,
+    "AttackHitTime": 0.166666672,
+    "DamageStartTime": 0.13333334,
+    "DamageEndTime": 0.4,
+    "AttackCamFwdHitTime": 0.2,
+    "ComboEarlyTime": 0.466666669,
+    "Side": 2,
+    "Anim": {
+      "Name": "Spear_Hit2"
+    },
+    "AnimBlendIn": 0,
+    "AttackLengthFrameTime": 30,
+    "AttackHitFrameTime": 5,
+    "DamageStartFrameTime": 4,
+    "DamageEndFrameTime": 12,
+    "AttackCamFwdHitFrameTime": 6,
+    "ComboEarlyFrameTime": 14
+  },
+  "FPAttackHitRight": {
+    "AttackLengthTime": 1,
+    "AttackHitTime": 0.166666672,
+    "DamageStartTime": 0,
+    "DamageEndTime": 0,
+    "AttackCamFwdHitTime": 0,
+    "ComboEarlyTime": 0.466666669,
+    "Side": 1,
+    "Anim": {
+      "Name": "Spear_Hit"
+    },
+    "AnimBlendIn": 0,
+    "AttackLengthFrameTime": 30,
+    "AttackHitFrameTime": 5,
+    "DamageStartFrameTime": 0,
+    "DamageEndFrameTime": 0,
+    "AttackCamFwdHitFrameTime": 0,
+    "ComboEarlyFrameTime": 14
+  },
+  "FPAttackHitLeft": {
+    "AttackLengthTime": 1,
+    "AttackHitTime": 0.166666672,
+    "DamageStartTime": 0,
+    "DamageEndTime": 0,
+    "AttackCamFwdHitTime": 0,
+    "ComboEarlyTime": 0.466666669,
+    "Side": 2,
+    "Anim": {
+      "Name": "Spear_Hit2"
+    },
+    "AnimBlendIn": 0,
+    "AttackLengthFrameTime": 30,
+    "AttackHitFrameTime": 5,
+    "DamageStartFrameTime": 0,
+    "DamageEndFrameTime": 0,
+    "AttackCamFwdHitFrameTime": 0,
+    "ComboEarlyFrameTime": 14
+  },
+  "FPAttackPush": {
+    "AttackLengthTime": 1.16666663,
+    "AttackHitTime": 0,
+    "DamageStartTime": 0.13333334,
+    "DamageEndTime": 0.266666681,
+    "AttackCamFwdHitTime": 0.166666672,
+    "ComboEarlyTime": 0.6,
+    "Side": 3,
+    "Anim": {
+      "Name": "Spear_Shove"
+    },
+    "AnimBlendIn": 0,
+    "AttackLengthFrameTime": 35,
+    "AttackHitFrameTime": 0,
+    "DamageStartFrameTime": 4,
+    "DamageEndFrameTime": 8,
+    "AttackCamFwdHitFrameTime": 5,
+    "ComboEarlyFrameTime": 18
+  },
+  "FPAttackChargeUpRight": {
+    "AttackLengthTime": 0,
+    "AttackHitTime": 0,
+    "DamageStartTime": 0,
+    "DamageEndTime": 0,
+    "AttackCamFwdHitTime": 0,
+    "ComboEarlyTime": 0,
+    "Side": 1,
+    "Anim": {
+      "Name": "Spear_Chargeup"
+    },
+    "AnimBlendIn": 0.05,
+    "AttackLengthFrameTime": 0,
+    "AttackHitFrameTime": 0,
+    "DamageStartFrameTime": 0,
+    "DamageEndFrameTime": 0,
+    "AttackCamFwdHitFrameTime": 0,
+    "ComboEarlyFrameTime": 0
+  },
+  "FPAttackChargeUpLeft": {
+    "AttackLengthTime": 0,
+    "AttackHitTime": 0,
+    "DamageStartTime": 0,
+    "DamageEndTime": 0,
+    "AttackCamFwdHitTime": 0,
+    "ComboEarlyTime": 0,
+    "Side": 2,
+    "Anim": {
+      "Name": "Spear_Chargeup2"
+    },
+    "AnimBlendIn": 0.05,
+    "AttackLengthFrameTime": 0,
+    "AttackHitFrameTime": 0,
+    "DamageStartFrameTime": 0,
+    "DamageEndFrameTime": 0,
+    "AttackCamFwdHitFrameTime": 0,
+    "ComboEarlyFrameTime": 0
+  },
+  "FPAttackChargeUpReleaseRight": {
+    "AttackLengthTime": 1,
+    "AttackHitTime": 0.06666667,
+    "DamageStartTime": 0,
+    "DamageEndTime": 0.4,
+    "AttackCamFwdHitTime": 0.06666667,
+    "ComboEarlyTime": 0.466666669,
+    "Side": 1,
+    "Anim": {
+      "Name": "Spear_ChargeupRelease"
+    },
+    "AnimBlendIn": 0,
+    "AttackLengthFrameTime": 30,
+    "AttackHitFrameTime": 2,
+    "DamageStartFrameTime": 0,
+    "DamageEndFrameTime": 12,
+    "AttackCamFwdHitFrameTime": 2,
+    "ComboEarlyFrameTime": 14
+  },
+  "FPAttackChargeUpReleaseLeft": {
+    "AttackLengthTime": 1,
+    "AttackHitTime": 0.06666667,
+    "DamageStartTime": 0,
+    "DamageEndTime": 0.4,
+    "AttackCamFwdHitTime": 0.06666667,
+    "ComboEarlyTime": 0.466666669,
+    "Side": 2,
+    "Anim": {
+      "Name": "Spear_ChargeupRelease2"
+    },
+    "AnimBlendIn": 0,
+    "AttackLengthFrameTime": 30,
+    "AttackHitFrameTime": 2,
+    "DamageStartFrameTime": 0,
+    "DamageEndFrameTime": 12,
+    "AttackCamFwdHitFrameTime": 2,
+    "ComboEarlyFrameTime": 14
+  },
+  "FPAttackChargeUpHitRight": {
+    "AttackLengthTime": 1,
+    "AttackHitTime": 0.06666667,
+    "DamageStartTime": 0,
+    "DamageEndTime": 0,
+    "AttackCamFwdHitTime": 0,
+    "ComboEarlyTime": 0.466666669,
+    "Side": 1,
+    "Anim": {
+      "Name": "Spear_ChargeupRelease"
+    },
+    "AnimBlendIn": 0,
+    "AttackLengthFrameTime": 30,
+    "AttackHitFrameTime": 2,
+    "DamageStartFrameTime": 0,
+    "DamageEndFrameTime": 0,
+    "AttackCamFwdHitFrameTime": 0,
+    "ComboEarlyFrameTime": 14
+  },
+  "FPAttackChargeUpHitLeft": {
+    "AttackLengthTime": 1,
+    "AttackHitTime": 0.06666667,
+    "DamageStartTime": 0,
+    "DamageEndTime": 0,
+    "AttackCamFwdHitTime": 0,
+    "ComboEarlyTime": 0.466666669,
+    "Side": 2,
+    "Anim": {
+      "Name": "Spear_ChargeupRelease2"
+    },
+    "AnimBlendIn": 0,
+    "AttackLengthFrameTime": 30,
+    "AttackHitFrameTime": 2,
+    "DamageStartFrameTime": 0,
+    "DamageEndFrameTime": 0,
+    "AttackCamFwdHitFrameTime": 0,
+    "ComboEarlyFrameTime": 14
+  },
+  "TPAnimHashIdle": {
+    "Name": "Spear_Idle"
+  },
+  "TPAnimHashIdleCrouch": {
+    "Name": "Spear_Idle_crouch"
+  },
+  "TPAnimHashAttackLeft": {
+    "Name": "Spear_SwingLeft"
+  },
+  "TPAnimHashAttackLeftCrouch": {
+    "Name": "Spear_SwingLeft_crouch"
+  },
+  "TPAnimHashAttackLeftCharge": {
+    "Name": "Spear_Charge_Left_Start"
+  },
+  "TPAnimHashAttackLeftChargeCrouch": {
+    "Name": "Spear_Charge_Left_Start_Crouch"
+  },
+  "TPAnimHashAttackLeftRelease": {
+    "Name": "Spear_Charge_Left_Release"
+  },
+  "TPAnimHashAttackLeftReleaseCrouch": {
+    "Name": "Spear_Charge_Left_Release_Crouch"
+  },
+  "name": "Spear",
+  "internalEnabled": true,
+  "persistentID": 3
+}

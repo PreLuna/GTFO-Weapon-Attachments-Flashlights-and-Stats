@@ -1,0 +1,8 @@
+{
+  "datablock": "PlayerOfflineGear",
+  "Type": 1,
+  "GearJSON": "{\"Ver\":1,\"Name\":\"Accrat STB\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":32},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":1},\"e\":{\"c\":5,\"v\":49},\"f\":{\"c\":6,\"v\":3},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":17},\"i\":{\"c\":9,\"v\":6},\"j\":{\"c\":10,\"v\":12},\"k\":{\"c\":11,\"v\":12},\"l\":{\"c\":12,\"v\":24},\"m\":{\"c\":16,\"v\":23},\"n\":{\"c\":19,\"v\":9},\"o\":{\"c\":21,\"v\":16},\"p\":{\"c\":23,\"v\":8},\"q\":{\"c\":25,\"v\":6}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.045,\"y\":0.025,\"normalized\":{\"x\":0.8741573,\"y\":0.48564294,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.05147815,\"sqrMagnitude\":0.00265000015},\"angle\":90.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.05,\"y\":0.03,\"normalized\":{\"x\":0.857493,\"y\":0.51449573,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.0583095178,\"sqrMagnitude\":0.0034},\"angle\":90.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.05,\"y\":0.03,\"normalized\":{\"x\":0.857493,\"y\":0.51449573,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.0583095178,\"sqrMagnitude\":0.0034},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Accrat STB\"}}}",
+  "name": "PDWAuto",
+  "internalEnabled": true,
+  "persistentID": 60
+}

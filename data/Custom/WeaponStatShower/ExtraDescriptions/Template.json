@@ -1,0 +1,26 @@
+[
+  {
+    "ArchetypeID": 0,
+    "GearCategoryID": 0,
+    "Headers": [],
+    "Descriptions": [],
+    "DescriptionIndexOverride": -1,
+    "HideDefaultDescription": false,
+    "Name": ""
+  },
+  {
+    "ArchetypeID": 0,
+    "GearCategoryID": 0,
+    "Headers": [
+      "",
+      "Third Tab"
+    ],
+    "Descriptions": [
+      "Custom tab for testing",
+      "Another custom tab under the third tab"
+    ],
+    "DescriptionIndexOverride": -1,
+    "HideDefaultDescription": false,
+    "Name": "Filled Example"
+  }
+]

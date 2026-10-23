@@ -1,0 +1,98 @@
+{
+  "datablock": "Archetype",
+  "PublicName": 1399,
+  "Description": 1400,
+  "FireMode": 2,
+  "RecoilDataID": 44,
+  "DamageBoosterEffect": 58,
+  "Damage": 10,
+  "DamageFalloff": {
+    "x": 10,
+    "y": 40,
+    "normalized": {
+      "x": 0.132163718,
+      "y": 0.9912279,
+      "magnitude": 1.0,
+      "sqrMagnitude": 1.0
+    },
+    "magnitude": 30.2654915,
+    "sqrMagnitude": 916.0
+  },
+  "StaggerDamageMulti": 8,
+  "PrecisionDamageMulti": 0.7333,
+  "DefaultClipSize": 4,
+  "DefaultReloadTime": 1.5,
+  "CostOfBullet": 5,
+  "ShotDelay": 0.5,
+  "ShellCasingSize": 1.0,
+  "ShellCasingSpeedRange": {
+    "x": 3.0,
+    "y": 5.0,
+    "normalized": {
+      "x": 0.5144958,
+      "y": 0.857493,
+      "normalized": {
+        "x": 0.51449573,
+        "y": 0.857492864,
+        "normalized": {
+          "x": 0.5144958,
+          "y": 0.8574929,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.9999999
+      },
+      "magnitude": 1.00000012,
+      "sqrMagnitude": 1.00000012
+    },
+    "magnitude": 5.83095169,
+    "sqrMagnitude": 34.0
+  },
+  "PiercingBullets": true,
+  "PiercingDamageCountLimit": 6,
+  "HipFireSpread": 0.0,
+  "AimSpread": 0.0,
+  "EquipTransitionTime": 1,
+  "EquipSequence": [
+    {
+      "TriggerTime": 0.0,
+      "Type": 0,
+      "StringData": "Front_Shotgun_3_equip_weaponmovement"
+    },
+    {
+      "TriggerTime": 2.0,
+      "Type": 7
+    }
+  ],
+  "AimTransitionTime": 0.5,
+  "AimSequence": [],
+  "BurstDelay": 0.4,
+  "BurstShotCount": 1,
+  "ShotgunBulletCount": 50,
+  "ShotgunConeSize": 5,
+  "ShotgunBulletSpread": 4,
+  "SpecialChargetupTime": 0.0,
+  "SpecialCooldownTime": 0.0,
+  "SpecialSemiBurstCountTimeout": 0.0,
+  "Sentry_StartFireDelay": 1.0,
+  "Sentry_RotationSpeed": 4.0,
+  "Sentry_DetectionMaxRange": 25.0,
+  "Sentry_DetectionMaxAngle": 30.0,
+  "Sentry_FireTowardsTargetInsteadOfForward": false,
+  "Sentry_ForceAimTowardsBody": false,
+  "Sentry_LongRangeThreshold": 999.0,
+  "Sentry_ShortRangeThreshold": 0.0,
+  "Sentry_LegacyEnemyDetection": true,
+  "Sentry_FireTagOnly": false,
+  "Sentry_PrioTag": false,
+  "Sentry_StartFireDelayTagMulti": 1.0,
+  "Sentry_RotationSpeedTagMulti": 1.0,
+  "Sentry_DamageTagMulti": 1.0,
+  "Sentry_StaggerDamageTagMulti": 1.0,
+  "Sentry_CostOfBulletTagMulti": 1.0,
+  "Sentry_ShotDelayTagMulti": 1.0,
+  "name": "GEAR_Scattergun_Semi",
+  "internalEnabled": true,
+  "persistentID": 72
+}

@@ -1,0 +1,49 @@
+{
+  "datablock": "MeleeArchetype",
+  "PublicName": "Spear",
+  "NoiseLevel": 1,
+  "ChargedAttackDamage": 40.4,
+  "LightAttackDamage": 14,
+  "LightStaggerMulti": 4,
+  "ChargedStaggerMulti": 7,
+  "LightPrecisionMulti": 1.5,
+  "ChargedPrecisionMulti": 2,
+  "LightEnvironmentMulti": 5,
+  "ChargedEnvironmentMulti": 5,
+  "LightBackstabberMulti": 1,
+  "ChargedBackstabberMulti": 1.7,
+  "LightSleeperMulti": 1,
+  "ChargedSleeperMulti": 1.5,
+  "SkipLimbDestruction": false,
+  "CameraDamageRayLength": 3.2,
+  "AttackSphereRadius": 0.4,
+  "PushDamageSphereRadius": 1,
+  "CanHitMultipleEnemies": true,
+  "EvaluateHoldBeforeAttack": true,
+  "PlayImpactEffect": true,
+  "AllowRunningWhenCharging": true,
+  "PlayerRunSpeedMultiWhileCharging": 1,
+  "MeleeAnimationSet": 3,
+  "MeleeSFXSet": 3,
+  "ChargedAttackStaminaCost": {
+    "baseStaminaCostInCombat": 0,
+    "baseStaminaCostOutOfCombat": 0,
+    "resetRestingTimerInCombat": true,
+    "resetRestingTimerOutOfCombat": true
+  },
+  "LightAttackStaminaCost": {
+    "baseStaminaCostInCombat": 0,
+    "baseStaminaCostOutOfCombat": 0,
+    "resetRestingTimerInCombat": false,
+    "resetRestingTimerOutOfCombat": false
+  },
+  "PushStaminaCost": {
+    "baseStaminaCostInCombat": 0,
+    "baseStaminaCostOutOfCombat": 0,
+    "resetRestingTimerInCombat": false,
+    "resetRestingTimerOutOfCombat": false
+  },
+  "name": "Spear",
+  "internalEnabled": true,
+  "persistentID": 3
+}

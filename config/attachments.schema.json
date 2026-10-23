@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PreLuna WeaponAttachments catalog format 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["SchemaVersion", "CatalogId", "Attachments"],
+  "properties": {
+    "SchemaVersion": { "const": 1 },
+    "CatalogId": { "$ref": "#/$defs/id" },
+    "Attachments": { "type": "array", "maxItems": 2048, "items": { "$ref": "#/$defs/attachment" } }
+  },
+  "$defs": {
+    "id": {
+      "type": "string", "minLength": 1, "maxLength": 128,
+      "pattern": "^[a-z]", "not": { "pattern": "[^a-z0-9_.-]" }
+    },
+    "parameters": { "type": "object", "additionalProperties": { "type": "number" } },
+    "weapon": {
+      "type": "object", "additionalProperties": false,
+      "required": ["DataPackId"],
+      "anyOf": [ { "required": ["OfflineGearId"] }, { "required": ["VariantKey"] } ],
+      "properties": {
+        "DataPackId": { "$ref": "#/$defs/id" },
+        "OfflineGearId": { "type": "integer", "minimum": 1, "maximum": 4294967295 },
+        "VariantKey": { "$ref": "#/$defs/id" },
+        "ArchetypeId": { "type": "integer", "minimum": 1, "maximum": 4294967295 }
+      }
+    },
+    "applicability": {
+      "type": "object", "additionalProperties": false,
+      "required": ["Targets", "WeaponScope"],
+      "properties": {
+        "Targets": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["LocalPlayer", "HostBot"] } },
+        "WeaponScope": { "enum": ["All", "ListedOnly"] },
+        "Weapons": { "type": "array", "items": { "$ref": "#/$defs/weapon" }, "default": [] },
+        "ExcludedWeapons": { "type": "array", "items": { "$ref": "#/$defs/weapon" }, "default": [] },
+        "RequiredWeaponCapabilities": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" }, "default": [] }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "WeaponScope": { "const": "ListedOnly" } } },
+          "then": { "required": ["Weapons"], "properties": { "Weapons": { "minItems": 1 } } }
+        },
+        {
+          "if": { "properties": { "WeaponScope": { "const": "All" } } },
+          "then": { "properties": { "Weapons": { "maxItems": 0 } } }
+        }
+      ]
+    },
+    "condition": {
+      "type": "object", "additionalProperties": false, "required": ["Id"],
+      "properties": {
+        "Id": { "$ref": "#/$defs/id" },
+        "Parameters": { "$ref": "#/$defs/parameters", "default": {} }
+      }
+    },
+    "modifier": {
+      "type": "object", "additionalProperties": false,
+      "required": ["Stat", "Operation", "Percent"],
+      "properties": {
+        "Stat": { "$ref": "#/$defs/id" },
+        "Operation": { "enum": ["IncreasePercent", "DecreasePercent"] },
+        "Percent": { "type": "number", "minimum": 0 },
+        "Condition": { "anyOf": [ { "$ref": "#/$defs/condition" }, { "type": "null" } ] }
+      },
+      "if": { "properties": { "Operation": { "const": "DecreasePercent" } } },
+      "then": { "properties": { "Percent": { "maximum": 100 } } }
+    },
+    "mechanism": {
+      "type": "object", "additionalProperties": false,
+      "required": ["Capability"],
+      "properties": {
+        "Capability": { "$ref": "#/$defs/id" },
+        "Parameters": { "$ref": "#/$defs/parameters", "default": {} },
+        "Condition": { "anyOf": [ { "$ref": "#/$defs/condition" }, { "type": "null" } ] }
+      }
+    },
+    "flashlight": {
+      "type": "object", "additionalProperties": false,
+      "required": ["DataPackId"],
+      "anyOf": [ { "required": ["SourcePartId"] }, { "required": ["SettingsId"] }, { "required": ["SourceWeapon"] } ],
+      "properties": {
+        "DataPackId": { "$ref": "#/$defs/id" },
+        "SourcePartId": { "type": "integer", "minimum": 1, "maximum": 4294967295 },
+        "SettingsId": { "type": "integer", "minimum": 1, "maximum": 4294967295 },
+        "SourceWeapon": { "anyOf": [ { "$ref": "#/$defs/weapon" }, { "type": "null" } ] }
+      }
+    },
+    "visual": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "Enabled": { "const": false, "default": false },
+        "BindingId": { "type": ["string", "null"] },
+        "MountPointId": { "type": ["string", "null"] },
+        "FirstPersonAsset": { "type": ["string", "null"] },
+        "ThirdPersonAsset": { "type": ["string", "null"] }
+      }
+    },
+    "attachment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["Id", "DisplayName", "Slot", "Applicability"],
+      "properties": {
+        "Id": { "allOf": [ { "$ref": "#/$defs/id" }, { "not": { "pattern": "^original\\." } } ] },
+        "DisplayName": { "type": "string", "pattern": "\\S" },
+        "Slot": { "enum": ["Muzzle", "Barrel", "Handguard", "FrontGrip", "RearGrip", "Stock", "Magazine", "Ammunition", "Perk", "Flashlight"] },
+        "Applicability": { "$ref": "#/$defs/applicability" },
+        "Modifiers": { "type": "array", "items": { "$ref": "#/$defs/modifier" }, "default": [] },
+        "Mechanisms": { "type": "array", "items": { "$ref": "#/$defs/mechanism" }, "default": [] },
+        "Flashlight": { "anyOf": [ { "$ref": "#/$defs/flashlight" }, { "type": "null" } ] },
+        "VisualBinding": { "$ref": "#/$defs/visual", "default": { "Enabled": false } }
+      }
+    }
+  }
+}

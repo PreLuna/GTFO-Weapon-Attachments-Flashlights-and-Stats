@@ -1,0 +1,8 @@
+{
+  "datablock": "PlayerOfflineGear",
+  "Type": 1,
+  "GearJSON": "{\"Ver\":1,\"Name\":\"IsoCo Stinger\",\"Packet\":{\"Comps\":{\"Length\":7,\"a\":{\"c\":2,\"v\":28},\"b\":{\"c\":3,\"v\":162},\"c\":{\"c\":4,\"v\":40},\"d\":{\"c\":44,\"v\":16},\"e\":{\"c\":48,\"v\":18},\"f\":{\"c\":50,\"v\":13}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"MACO Drillhead\"}}}",
+  "name": "Spear_02",
+  "internalEnabled": true,
+  "persistentID": 70
+}

@@ -1,0 +1,66 @@
+{
+  "SchemaVersion": 2,
+  "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
+  "Modules": [
+    {
+      "Id": "WeaponAttachments",
+      "Assembly": "PreLuna.WeaponAttachments",
+      "Guid": "PreLuna.WeaponAttachments",
+      "Version": "0.8.0",
+      "DependencyGuids": [
+        "dev.gtfomodding.gtfo-api",
+        "com.dak.MTFO",
+        "Dinorush.ModifierAPI",
+        "Amor.AmorLib",
+        "Dinorush.ExtraWeaponCustomization",
+        "WeaponStatShower",
+        "MTFO.Extension.PartialBlocks"
+      ],
+      "CompileDependencies": [],
+      "Kind": "managed",
+      "ExternalReferences": [
+        {
+          "Name": "WeaponStatShower.dll",
+          "SHA256": "3BC0DF370D740976BC2E82F59B9821BDA00107CEA8F87281383AACD060F99683"
+        },
+        {
+          "Name": "ExtraWeaponCustomization.dll",
+          "SHA256": "5DBC8AC35010137F4DB529D365238D17C1CCE089D7CEADD6B5F0E926FEFAC317"
+        },
+        {
+          "Name": "GTFO-API.dll",
+          "SHA256": "28DCD7F22F13917306C05B423758A57694890770BA6048A2F02958B0F064BEF2"
+        },
+        {
+          "Name": "MTFO.dll",
+          "SHA256": "CD671F3BACA0AD275FA11223BDFE76B060E569CED9741B08B3FF4089DA77D3BC"
+        }
+      ],
+      "NullableEnabled": true,
+      "WarningsAsErrors": true
+    },
+    {
+      "Id": "FlashlightCustom",
+      "Assembly": "PreLuna.FlashlightCustom",
+      "Guid": "PreLuna.FlashlightCustom",
+      "Version": "1.0.1",
+      "DependencyGuids": [],
+      "CompileDependencies": [],
+      "Kind": "frozen-migrated",
+      "LegacyGuid": "wanglocal.flashlightcustom",
+      "Baseline": "baseline/FlashlightCustom/WangLocal.FlashlightCustom.dll",
+      "BaselineSHA256": "FE588A5CB6B8DD24E5FFF29A848AF339EFC3AC48A2CF293A33CA14B723571F9B"
+    },
+    {
+      "Id": "WeaponDataCustom",
+      "Kind": "data",
+      "Version": "1.0.8",
+      "RuntimeDependencies": [
+        "MTFO 4.6.3",
+        "PartialData 1.5.2",
+        "PierceBugFix 1.2.2",
+        "WeaponStatShower 2.0.5"
+      ]
+    }
+  ]
+}
