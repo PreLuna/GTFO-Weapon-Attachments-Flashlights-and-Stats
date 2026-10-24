@@ -18,11 +18,6 @@
       "Bytes": 491
     },
     {
-      "Path": "DEVELOPMENT.md",
-      "SHA256": "85F53D22433F8EBA89F85C31F5DF73F23AFE4BB02BDEE1715C38B1BB08C4162C",
-      "Bytes": 2999
-    },
-    {
       "Path": "FlashlightCustom/baseline/WangLocal.FlashlightCustom.dll",
       "SHA256": "FE588A5CB6B8DD24E5FFF29A848AF339EFC3AC48A2CF293A33CA14B723571F9B",
       "Bytes": 94208
@@ -33,14 +28,9 @@
       "Bytes": 2425
     },
     {
-      "Path": "NOTICE.md",
-      "SHA256": "ABE6C1F473E27BACA70726134886765E65F5540D8E8D73BB8DACAA3EBE67859E",
-      "Bytes": 624
-    },
-    {
       "Path": "README.md",
-      "SHA256": "76B6E44F8709A9243AD9F2FA559F27F0A89448D30498E93937C0763650488827",
-      "Bytes": 1951
+      "SHA256": "363D400BEDAE308992D3CF27544F3834E04AB0FC18A96E0DD23007E8101B4B1E",
+      "Bytes": 5755
     },
     {
       "Path": "repo.json",
