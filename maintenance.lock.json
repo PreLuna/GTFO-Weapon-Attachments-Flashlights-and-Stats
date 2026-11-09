@@ -18,6 +18,11 @@
       "Bytes": 491
     },
     {
+      "Path": "FlashlightCustom/说明.md",
+      "SHA256": "734378645B289B8491779167054075AB7F7F3E1216EB5F358425ECFE1C5E9EA8",
+      "Bytes": 1134
+    },
+    {
       "Path": "FlashlightCustom/baseline/WangLocal.FlashlightCustom.dll",
       "SHA256": "FE588A5CB6B8DD24E5FFF29A848AF339EFC3AC48A2CF293A33CA14B723571F9B",
       "Bytes": 94208
@@ -41,6 +46,11 @@
       "Path": "Test.ps1",
       "SHA256": "14CBCAC1AC7099963F1CD5856DDF4DBD7BC8DD5133581B6B8C2361521CC05C42",
       "Bytes": 308
+    },
+    {
+      "Path": "WeaponAttachments/说明.md",
+      "SHA256": "CE4F65F5EA45152BB9E91D3B12F87CA482694F809CFE1E778539C707378488DE",
+      "Bytes": 1203
     },
     {
       "Path": "WeaponAttachments/config/attachments.catalog.json",
@@ -296,6 +306,11 @@
       "Path": "WeaponAttachments/tests/Stage7Ownership.cs",
       "SHA256": "010A28F334FB7FAC4F4823072A77416826086C74CAEF0B034FD248E831092024",
       "Bytes": 7203
+    },
+    {
+      "Path": "WeaponDataCustom/说明.md",
+      "SHA256": "9AADD21F3A26339A016F651C02F8671CB2E6262C1ECE1C88E1E03A60358A97DB",
+      "Bytes": 624
     },
     {
       "Path": "WeaponDataCustom/GameData/Custom/WeaponStatShower/ExtraDescriptions/Template.json",
